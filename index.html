@@ -8,21 +8,38 @@
   <body>
     <!--NAVIGATION-->
     <header>
-      <nav></nav>
+      <nav>
+        <div class="container">
+          <div class="row">
+            <figure>
+              <img src="./HTML Practise Assets/FES.svg" class="logo" alt="" />
+            </figure>
+            <ul>
+              <li><a href="#About">About</a></li>
+              <li><a href="#Discord">Discord</a></li>
+              <li><a href="Contact Us">Contact Us</a></li>
+            </ul>
+          </div>
+        </div>
+      </nav>
     </header>
+    <hr />
+
     <main>
       <!--HERO SECTION-->
       <section id="Hero">
         <div class="container">
           <div class="row">
             <div class="Hero_description">
-
-                <h1>Best Place to learn frontend</h1>
-                <p class="section"></p>
+              <h1>Best Place to learn frontend</h1>
+              <p class="subheader">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione, adipisci?</p>
+              <button class="hero_description-button">Start Now!</button>
             </div>
+            <figure><img src="./HTML Practise Assets/laptop.png" alt="laptop image" /></figure>
           </div>
         </div>
       </section>
+      <hr />
 
       <!--ABOUT SECTION-->
       <section id="About">
@@ -39,13 +56,58 @@
           </div>
         </div>
       </section>
+      <hr />
 
       <!--DISCORD SECTION-->
-      <section id="Discord"></section>
+      <section id="Discord">
+        <div class="container">
+          <h2>DISCORD</h2>
+          <div class="row">
+            <div class="section_description-wrapper">
+              <figure class="about_image-wrapper">
+                <img src="./HTML Practise Assets/discord.png" alt="" />
+              </figure>
+              <p class="section_description-para">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Accusamus, suscipit.</p>
+              <p class="section_description-para">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Accusamus, suscipit.</p>
+            </div>
+          </div>
+        </div>
+      </section>
+      <hr />
 
-      <!--CONTACT US SECTION-->
-      <section id="Contact Us"></section>
+      <!--CONTACT SECTION-->
+      <section id="CONTACT">
+        <div class="container">
+          <h2>CONTACT US</h2>
+          <form action="">
+            <label for="email">Email</label>
+            <input type="email" placeholder="john@sample.com" />
+            <label for="Message">Email</label>
+            <input type="email" placeholder="Insert message here" />
+            <button>Submit</button>
+          </form>
+        </div>
+      </section>
+      <hr />
     </main>
-    <footer></footer>
+
+    <footer>
+      <div class="container">
+        <div class="row">
+          <figure>
+            <img src="./HTML Practise Assets/FES.svg" class="footer_logo" alt="" />
+          </figure>
+
+          <div class="footer_links">
+            <ul>
+              <li><a href="#About">About</a></li>
+              <li><a href="#Discord">Discord</a></li>
+              <li><a href="Contact Us">Contact Us</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <p>Copyright FrontEnd Simplified</p>
+    </footer>
   </body>
 </html>
